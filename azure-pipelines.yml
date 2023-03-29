@@ -12,7 +12,7 @@ pool:
 stages:
   - stage: Build
     jobs:
-      - job: First Job
+      - job: FirstJob
         steps:
           - bash: echo Build First Job
           - bash: echo $(PipelineLevelVariable)
